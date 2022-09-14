@@ -131,8 +131,11 @@ displayHistory();
 
 // Show typing time spent
 setInterval(() => {
-  const currentTime = new Date().getTime();
+  const currentTime = new Date().getTime() ;
+       currentTime.toFixed(2)
   const timeSpent = (currentTime - startTime) / 1000;
+  timeSpent.toFixed(2);
+  console.log(timeSpent);
 
 
   document.getElementById("show-time").innerHTML = `${startTime ? timeSpent : 0} seconds`;
