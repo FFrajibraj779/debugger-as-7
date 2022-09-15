@@ -1,12 +1,14 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-color: aliceblue;
 }
-p{
-    color: rgba(92, 84, 84, 0.81);
-}
-ol li{
-    font-size: 20px;
-    color: rgba(92, 84, 84, 0.81);
 
+p {
+    color: #666;
+}
+
+ol li {
+    font-size: 20px;
+
+    color: #666;
 }
